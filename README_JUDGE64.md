@@ -1,7 +1,7 @@
 # CARLi Home — Judge Kit, Build 6.4
 
-**Project:** CARLi Home — Governed Personal AI for Longitudinal Pet Memory  
-**Track:** Personal AI, Nebius × NVIDIA Global AI Hackathon 2026  
+**Project:** CARLi Home — Governed Personal AI for Longitudinal Pet Memory
+**Track:** Personal AI, Nebius × NVIDIA Global AI Hackathon 2026
 **Pinned source:** `freshcanibowl/carli-home-nebius-2026`, Build 6.3 baseline `9e2d825c7fc0b91514fda0b80069da267146664d`.
 
 ## What is verified
