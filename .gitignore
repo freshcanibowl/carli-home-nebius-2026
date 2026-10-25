@@ -1,0 +1,12 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-*
+live_proof.json
+pending.json
+receipts.jsonl
+*.db
+ship_report.json
+*.log

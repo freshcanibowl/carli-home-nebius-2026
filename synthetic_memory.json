@@ -1,0 +1,6 @@
+[
+  {"id":"evt-001","pet":"Pika-SYNTHETIC","day":"2026-10-21","type":"water","observation":"Water bowl refilled once; consumption not measured","source":"synthetic-owner-log"},
+  {"id":"evt-002","pet":"Pika-SYNTHETIC","day":"2026-10-22","type":"water","observation":"Water bowl refilled once; consumption not measured","source":"synthetic-owner-log"},
+  {"id":"evt-003","pet":"Pika-SYNTHETIC","day":"2026-10-23","type":"water","observation":"Owner did not observe drinking; this does not prove no water intake","source":"synthetic-owner-log"},
+  {"id":"evt-004","pet":"Pika-SYNTHETIC","day":"2026-10-24","type":"activity","observation":"Normal short walk reported","source":"synthetic-owner-log"}
+]
