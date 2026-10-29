@@ -1,0 +1,28 @@
+name: Build77 integration gates
+on:
+  push:
+    branches: [feat/build77-integrated-judge-release]
+  pull_request:
+    branches: [main]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Python unit tests
+        run: python -m unittest discover -v
+  judge-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify judge-site was imported
+        run: test -f judge-site/api/infer.js && test -f judge-site/api/status.js && test -f judge-site/index.html
+      - name: Node API contract tests
+        working-directory: judge-site
+        run: npm test
